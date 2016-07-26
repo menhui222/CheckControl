@@ -14,7 +14,7 @@
 		E1A4C54D1D45BB5600BA6300 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A4C54B1D45BB5600BA6300 /* LaunchScreen.storyboard */; };
 		E1A4C5581D45BB5600BA6300 /* CheckControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A4C5571D45BB5600BA6300 /* CheckControlTests.swift */; };
 		E1A4C5631D45BB5600BA6300 /* CheckControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A4C5621D45BB5600BA6300 /* CheckControlUITests.swift */; };
-		E1A4C5711D45BB6000BA6300 /* CheckControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A4C5701D45BB6000BA6300 /* CheckControl.swift */; };
+		E1EA06B21D473D87009E50EF /* CheckControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EA06B11D473D87009E50EF /* CheckControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		E1A4C55E1D45BB5600BA6300 /* CheckControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A4C5621D45BB5600BA6300 /* CheckControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckControlUITests.swift; sourceTree = "<group>"; };
 		E1A4C5641D45BB5600BA6300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E1A4C5701D45BB6000BA6300 /* CheckControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckControl.swift; sourceTree = "<group>"; };
+		E1EA06B11D473D87009E50EF /* CheckControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +79,7 @@
 		E1A4C5361D45BB5600BA6300 = {
 			isa = PBXGroup;
 			children = (
+				E1EA06B01D473D87009E50EF /* Classed */,
 				E1A4C5411D45BB5600BA6300 /* CheckControl */,
 				E1A4C5561D45BB5600BA6300 /* CheckControlTests */,
 				E1A4C5611D45BB5600BA6300 /* CheckControlUITests */,
@@ -101,7 +102,6 @@
 			children = (
 				E1A4C5421D45BB5600BA6300 /* AppDelegate.swift */,
 				E1A4C5441D45BB5600BA6300 /* ViewController.swift */,
-				E1A4C5701D45BB6000BA6300 /* CheckControl.swift */,
 				E1A4C5461D45BB5600BA6300 /* Main.storyboard */,
 				E1A4C5491D45BB5600BA6300 /* Assets.xcassets */,
 				E1A4C54B1D45BB5600BA6300 /* LaunchScreen.storyboard */,
@@ -126,6 +126,14 @@
 				E1A4C5641D45BB5600BA6300 /* Info.plist */,
 			);
 			path = CheckControlUITests;
+			sourceTree = "<group>";
+		};
+		E1EA06B01D473D87009E50EF /* Classed */ = {
+			isa = PBXGroup;
+			children = (
+				E1EA06B11D473D87009E50EF /* CheckControl.swift */,
+			);
+			path = Classed;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1A4C5711D45BB6000BA6300 /* CheckControl.swift in Sources */,
+				E1EA06B21D473D87009E50EF /* CheckControl.swift in Sources */,
 				E1A4C5451D45BB5600BA6300 /* ViewController.swift in Sources */,
 				E1A4C5431D45BB5600BA6300 /* AppDelegate.swift in Sources */,
 			);
@@ -486,6 +494,7 @@
 				E1A4C5691D45BB5600BA6300 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1A4C56A1D45BB5600BA6300 /* Build configuration list for PBXNativeTarget "CheckControlTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +503,7 @@
 				E1A4C56C1D45BB5600BA6300 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1A4C56D1D45BB5600BA6300 /* Build configuration list for PBXNativeTarget "CheckControlUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +512,7 @@
 				E1A4C56F1D45BB5600BA6300 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
