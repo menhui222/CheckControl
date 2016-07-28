@@ -20,15 +20,15 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   
   s.author             = { "menghui" => "menhui222@163.com" }
-s.platform    = :ios, "8.0"
+  s.platform    = :ios, "8.0"
   s.source       = { :git => "https://github.com/menhui222/CheckControl.git", :tag => s.version }
 
 
 
-  s.source_files  =  'Classes',"CheckControl/CheckControl.{swift,h,m}"
+  s.source_files  =  'Classed/**/*.{swift,h,m}'
 
 
-  s.framework = 'UIKit'
+  s.framework = 'UIKit','Foundation'
 
   s.requires_arc = true  
 
